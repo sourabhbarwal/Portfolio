@@ -46,8 +46,26 @@ export default function Skills() {
       <div
         className=" mx-auto max-w-7xl px-6"
       >
+        <p
+          className="
+          text-sm
+          uppercase
+          tracking-[0.3em]
+          text-neutral-500
+          "
+        >
+          Expertise
+        </p>
+
         <h2
-          className="text-5xl font-bold"
+          className="
+          mt-6
+
+          text-6xl
+          font-bold
+
+          md:text-8xl
+          "
         >
           Tech Stack
         </h2>

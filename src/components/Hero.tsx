@@ -6,79 +6,159 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="flex min-h-screen items-center px-6"
+      className="
+      flex
+      min-h-screen
+      items-center
+      "
     >
       <div
-        className="mx-auto grid max-w-7xl items-center gap-20 md:grid-cols-2"
+        className="
+        mx-auto
+        max-w-7xl
+        px-6
+        "
       >
-        <div>
+        <div
+          className="
+          inline-flex
+
+          items-center
+
+          gap-2
+
+          rounded-full
+
+          border
+
+          px-4
+          py-2
+
+          text-sm
+          "
+        >
           <div
-            className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm"
-          >
-            <div
-              className="h-2 w-2 rounded-full bg-green-500"
-            />
+            className="
+            h-2
+            w-2
 
-            Available for internships
-          </div>
+            rounded-full
 
-          <motion.h1
-            initial={{
-              opacity: 0,
-              y: 60,
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-            }}
-            transition={{
-              duration: 0.8,
-            }}
-            className="mt-8 text-7xl font-bold leading-none md:text-[7rem]"
-          >
-            Sourabh
-            <br />
-            Barwal
-          </motion.h1>
+            bg-green-500
+            "
+          />
 
-          <p
-            className="mt-8 max-w-xl text-xl text-neutral-600"
-          >
-            Cloud & DevOps Engineer
-            focused on scalable
-            infrastructure,
-            automation and modern
-            web experiences.
-          </p>
-
-          <div
-            className="mt-10 flex gap-4"
-          >
-            <a
-              href="#projects"
-              className="rounded-full bg-black px-6 py-3 text-white"
-            >
-              View Work
-            </a>
-
-            <a
-              href="/resume.pdf"
-              className="rounded-full border px-6 py-3"
-            >
-              Resume
-            </a>
-          </div>
+          Available for internships
         </div>
 
-        <div>
-          <div
-            className="aspect-square overflow-hidden rounded-[40px] border bg-neutral-100">
-            <img
-              src="/profile.jpg"
-              alt="Profile"
-              className="h-full w-full object-cover"
-            />
-          </div>
+        <p
+          className="
+          mt-12
+
+          text-sm
+
+          uppercase
+
+          tracking-[0.35em]
+
+          text-neutral-500
+          "
+        >
+          Sourabh Barwal
+        </p>
+
+        <motion.h1
+          initial={{
+            opacity: 0,
+            y: 40,
+          }}
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          transition={{
+            duration: 0.8,
+          }}
+          className="
+          mt-8
+
+          max-w-5xl
+
+          text-6xl
+
+          font-bold
+
+          leading-none
+
+          md:text-[7rem]
+          "
+        >
+          Cloud & DevOps
+          <br />
+          Engineer
+        </motion.h1>
+
+        <p
+          className="
+          mt-10
+
+          max-w-3xl
+
+          text-xl
+
+          leading-relaxed
+
+          text-neutral-600
+          "
+        >
+          Building scalable cloud
+          infrastructure, automation
+          pipelines and modern software
+          systems with a focus on
+          reliability, performance and
+          developer experience.
+        </p>
+
+        <div
+          className="
+          mt-12
+
+          flex
+
+          flex-wrap
+
+          gap-4
+          "
+        >
+          <a
+            href="#projects"
+            className="
+            rounded-full
+
+            bg-black
+
+            px-8
+            py-4
+
+            text-white
+            "
+          >
+            View Projects
+          </a>
+
+          <a
+            href="/resume.pdf"
+            className="
+            rounded-full
+
+            border
+
+            px-8
+            py-4
+            "
+          >
+            Resume
+          </a>
         </div>
       </div>
     </section>

@@ -40,7 +40,7 @@ export default function Navbar() {
       className=" fixed top-0 left-0 z-50 w-full "
     >
       <div
-        className={` mx-auto mt-6 flex max-w-7xl items-center justify-between rounded-full border border-neutral-200 px-8 py-4 backdrop-blur-xl transition-all duration-300
+        className={` mx-auto mt-4 flex max-w-7xl items-center justify-between rounded-full border border-neutral-200 px-8 py-3 backdrop-blur-xl transition-all duration-300
 
         ${
           scrolled
