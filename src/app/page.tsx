@@ -9,7 +9,7 @@ import Hero from "@/components/Hero";
 import Highlights from "@/components/Highlights";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
+import Expertise from "@/components/Expertise";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
 
       <Navbar />
 
-      <main>
+      <main className="max-w-7xl mx-auto px-8">
         <Hero />
 
         <Highlights />
@@ -30,7 +30,7 @@ export default function Home() {
 
         <Projects />
 
-        <Skills />
+        <Expertise />
 
         <Contact />
       </main>

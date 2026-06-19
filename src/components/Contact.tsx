@@ -1,7 +1,8 @@
 import { PERSONAL_INFO } from "@/lib/constants";
-
+import Reveal from "@/components/ui/Reveal";
 export default function Contact() {
   return (
+    <Reveal>
     <section
       id="contact"
       className="
@@ -56,5 +57,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    </Reveal>
   );
 }

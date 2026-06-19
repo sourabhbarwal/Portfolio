@@ -1,8 +1,10 @@
 import ProjectCard from "./projects/ProjectCard";
 import { projects } from "@/data/projects";
+import Reveal from "@/components/ui/Reveal";
 
 export default function Projects() {
   return (
+    <Reveal>
     <section
       id="projects"
       className="py-52"
@@ -63,5 +65,6 @@ export default function Projects() {
         />
       ))}
     </section>
+    </Reveal>
   );
 }

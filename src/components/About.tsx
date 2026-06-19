@@ -1,5 +1,7 @@
+import Reveal from "@/components/ui/Reveal";
 export default function About() {
   return (
+    <Reveal>
     <section
       id="about"
       className="py-52"
@@ -48,5 +50,6 @@ export default function About() {
         </h2>
       </div>
     </section>
+    </Reveal>
   );
 }
