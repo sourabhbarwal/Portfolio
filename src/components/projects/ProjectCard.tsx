@@ -2,13 +2,19 @@ type Props = {
   title: string;
   description: string;
 };
-
+import { motion } from "framer-motion";
 export default function ProjectCard({
   title,
   description,
 }: Props) {
   return (
-    <div
+    <motion.div
+      whileHover={{
+        x: 10,
+      }}
+      transition={{
+        duration: 0.3,
+      }}
       className="
         border-t
         border-neutral-200
@@ -26,15 +32,16 @@ export default function ProjectCard({
         Case Study
       </p>
 
-      <h3
+      <motion.h3
         className="
           mb-6
           text-6xl
           font-bold
         "
+        whileHover={{x: 12,}}
       >
         {title}
-      </h3>
+      </motion.h3>
 
       <p
         className="
@@ -55,6 +62,6 @@ export default function ProjectCard({
       >
         View Project →
       </button>
-    </div>
+    </motion. div>
   );
 }

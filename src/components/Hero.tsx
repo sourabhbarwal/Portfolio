@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Magnetic from "@/components/ui/Magnetic";
+import TextReveal from "@/components/ui/TextReveal";
 
 export default function Hero() {
   return (
@@ -64,7 +66,7 @@ export default function Hero() {
           text-neutral-500
           "
         >
-          Sourabh Barwal
+          <TextReveal text="Sourabh Barwal" />
         </p>
 
         <motion.h1
@@ -130,8 +132,8 @@ export default function Hero() {
           gap-4
           "
         >
-          <a
-            href="#projects"
+          <Magnetic>
+          <button
             className="
             rounded-full
 
@@ -144,21 +146,23 @@ export default function Hero() {
             "
           >
             View Projects
-          </a>
+          </button>
+          </Magnetic>
 
-          <a
-            href="/resume.pdf"
-            className="
-            rounded-full
+          <Magnetic>
+            <button
+              className="
+              rounded-full
 
-            border
+              border
 
-            px-8
-            py-4
-            "
-          >
-            Resume
-          </a>
+              px-8
+              py-4
+              "
+            >
+              Resume
+            </button>
+          </Magnetic>
         </div>
       </div>
     </section>

@@ -61,29 +61,89 @@ export default function Navbar() {
         >
           <a
             href="#about"
-            className="text-sm font-medium text-neutral-600 hover:text-black"
-          >
+            className="
+              relative
+
+              after:absolute
+              after:left-0
+              after:-bottom-1
+
+              after:h-[1px]
+              after:w-0
+
+              after:bg-black
+
+              after:transition-all
+
+              hover:after:w-full
+            "
+            >
             About
           </a>
 
           <a
             href="#projects"
-            className="text-sm font-medium text-neutral-600 hover:text-black"
-          >
+            className="
+              relative
+
+              after:absolute
+              after:left-0
+              after:-bottom-1
+
+              after:h-[1px]
+              after:w-0
+
+              after:bg-black
+
+              after:transition-all
+
+              hover:after:w-full
+            "
+            >
             Work
           </a>
 
           <a
             href="#skills"
-            className="text-sm font-medium text-neutral-600 hover:text-black"
-          >
+            className="
+              relative
+
+              after:absolute
+              after:left-0
+              after:-bottom-1
+
+              after:h-[1px]
+              after:w-0
+
+              after:bg-black
+
+              after:transition-all
+
+              hover:after:w-full
+            "
+            >
             Tech Stack
           </a>
 
           <a
             href="#contact"
-            className="text-sm font-medium text-neutral-600 hover:text-black"
-          >
+            className="
+              relative
+
+              after:absolute
+              after:left-0
+              after:-bottom-1
+
+              after:h-[1px]
+              after:w-0
+
+              after:bg-black
+
+              after:transition-all
+
+              hover:after:w-full
+            "
+            >
             Contact
           </a>
         </nav>
